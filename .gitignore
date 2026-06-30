@@ -2,14 +2,16 @@
 __pycache__/
 *.pyc
 venv/
-.env
 
-# Node
-node_modules/
+# Dataset
+dataset/
+
+# Trained models
+*.pth
+*.pt
 
 # VS Code
 .vscode/
 
-# OS
-.DS_Store
-Thumbs.db
+# Jupyter
+.ipynb_checkpoints/
